@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="default_web_client_id" translatable="false"></string>
+    <string name="gcm_defaultSenderId" translatable="false">1072395471328</string>
+    <string name="firebase_database_url" translatable="false">https://chainbyteswallet.firebaseio.com/</string>
+    <string name="google_app_id" translatable="false">1:1072395471328:android:d874d2a08b75a10f</string>
+    <string name="google_api_key" translatable="false">AIzaSyBp_bYdEcnJcLGJJBPMUEO6NojqO7ODDWI</string>
+    <string name="google_storage_bucket" translatable="false"></string>
+</resources>

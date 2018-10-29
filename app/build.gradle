@@ -1,0 +1,122 @@
+apply plugin: 'com.android.model.application'
+
+model {
+    android {
+        compileSdkVersion = 25
+        buildToolsVersion = '25.0.3'
+
+        defaultConfig {
+            testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
+            applicationId = 'com.chainbytes'
+            minSdkVersion.apiLevel = 23
+            targetSdkVersion.apiLevel = 25
+            versionCode = 97
+            versionName = "97"
+        }
+
+        ndk {
+            platformVersion = "23"
+            abiFilters.addAll(['x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'])
+
+            moduleName = "core"
+            toolchain = "clang"
+
+            CFlags.addAll(['-std=c99', '-g', '-DBITCOIN_TESTNET=0', '-I' + file('src/main/secp/secp256k1/include'),
+                           '-I' + file('src/main/secp/secp256k1'), '-I' + file('src/main/secp'), '-I' + file('src/main/jni/breadwallet-core'),
+                           '-I' + file('src/main/jni/transition'), '-Wno-trigraphs', /**'-Wmissing',*/
+                           '-Wno-missing-prototypes', '-Werror=return-type',
+                           '-Wdocumentation', '-Wunreachable-code-aggressive', '-Wno-missing-braces', '-Wparentheses', '-Wswitch', '-Wno-unused-function',
+                           '-Wunused-label', '-Wno-unused-parameter', '-Wunused-variable', '-Wunused-value', '-Wempty-body',
+                           '-Wconditional-uninitialized', '-Wno-unknown-pragmas', '-pedantic', '-Wshadow', '-Wfour-char-constants',
+                           '-Wno-conversion', '-Wconstant-conversion', '-Wint-conversion', '-Wbool-conversion ', '-Wenum-conversion',
+                           '-Wassign-enum', '-Wno-shorten-64-to-32', '-Wpointer-sign', '-Wnewline-eof', '-Wdeprecated-declarations', '-Wno-sign-conversion'])
+            ldLibs.addAll(['android', 'log'])
+            stl = 'gnustl_static'
+        }
+
+        lintOptions.with {
+            // set to true to turn off analysis progress reporting by lint
+            quiet = false
+            explainIssues = true
+            // if true, stop the gradle build if errors are found
+            abortOnError = true
+            // if true, only report errors
+            ignoreWarnings = false
+
+            disable 'MissingTranslation'
+        }
+
+        buildTypes {
+            gitUpdateModules()
+            release {
+                proguardFiles.add(file('proguard-rules.pro'))
+                minifyEnabled = false
+                debuggable = false
+                buildConfigFields.with {
+                    create() {
+                        type = "boolean"
+                        name = "BITCOIN_TESTNET"
+                        value = "false"
+                    }
+                }
+                ndk {
+                    CFlags.addAll(['-DBITCOIN_TESTNET=0'])
+                    minifyEnabled = false
+                    debuggable = false
+                }
+            }
+            debug {
+                proguardFiles.add(file('proguard-rules.pro'))
+                debuggable = true
+                minifyEnabled = false
+                buildConfigFields.with {
+                    create() {
+                        type = "boolean"
+                        name = "BITCOIN_TESTNET"
+                        value = "false"
+                    }
+                }
+                ndk {
+//                    CFlags.addAll(['-DBITCOIN_TESTNET=1'])
+                    minifyEnabled = false
+                    debuggable = true
+                }
+            }
+        }
+    }
+}
+
+def gitUpdateModules() {
+    ['sh', '-c', 'git submodule foreach git pull origin master'].execute().text.trim()
+    getLogger().debug("gitUpdateModules done!")
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'commons-io', name: 'commons-io', version: '2.0.1'
+    compile group: 'org.eclipse.jetty', name: 'jetty-webapp', version: '9.2.19.v20160908'
+    compile group: 'org.eclipse.jetty.websocket', name: 'websocket-server', version: '9.2.19.v20160908'
+    compile group: 'org.eclipse.jetty', name: 'jetty-continuation', version: '9.2.19.v20160908'
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.22'
+    //    compile 'org.apache.commons:commons-compress:1.8.1'
+
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v13:25.3.1'
+    compile 'com.android.support:support-compat:25.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-crash:10.0.1'
+    compile 'com.android.support:animated-vector-drawable:25.3.1'
+    compile 'io.sigpipe:jbsdiff:1.0'
+    androidTestCompile 'com.android.support:support-v13:25.3.1'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+}
+apply plugin: 'com.google.gms.google-services'

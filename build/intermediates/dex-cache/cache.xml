@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.2.19.v20160908/c48225a47e7aec7ec0702b4e9b291775d3eabfd3/jetty-io-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c48225a47e7aec7ec0702b4e9b291775d3eabfd3">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-io-9.2.19.v20160908_e43f810606025a07b7daeffb5e91ab96f5bf91ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.5/d2bd2c0bd328f1dabdf33e10b6d223ebcbe93343/commons-compress-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d2bd2c0bd328f1dabdf33e10b6d223ebcbe93343">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/commons-compress-1.5_c1d37dc2f289cf6930e6956dc76d5c54224dbc08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/77bafbcd01f8e42729cd7f522b9a56f13c04fa68/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_870a09a2b987b65ca74ff50ee2bc071e13f3017d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/io.sigpipe/jbsdiff/1.0/ac84a9fc05d8a12ee104dba712a587e768040468/jbsdiff-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ac84a9fc05d8a12ee104dba712a587e768040468">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jbsdiff-1.0_f040c31c71feb4e3b6484094b117c9dae5fa549e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.2/bfc66dda280a18ab341b5023248925265c00394c/xz-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bfc66dda280a18ab341b5023248925265c00394c">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/xz-1.2_d2f64b04ca73022f71c7c38553a03c1686b1e5cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/5b9f76142fe7bfb52ac08851e99b7de9c7b0aa35/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_ab921906c7bfc3dcf07c3dd5a1543f33d93a8b37.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.22/a1c83373863cec7ae8d89dc1c5722d8cb6ec0309/slf4j-api-1.7.22.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a1c83373863cec7ae8d89dc1c5722d8cb6ec0309">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.22_82b21b1288c9673d52e73d652870a4fe7e8fe8a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_e937dbfc7105dad8955ebde8f854f5029db929e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.2.19.v20160908/ec12b0e83f78b4c15b2f73525e6dd0df5b408b4f/jetty-webapp-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ec12b0e83f78b4c15b2f73525e6dd0df5b408b4f">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-webapp-9.2.19.v20160908_111e5f7563f23c857e20c02f5de2818b1bf21d40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/1fb3ffbeadae9ed11e1caf0d84e53dcc82c532e9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_c575d3bfb5de6991e2fc59c1c82262a5e7965b15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/e14e04fe98ead3bcf14bc964c73d9b4b3bf2c4ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_6e399881550a605953dc86f11a0aba60f118243f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.2.19.v20160908/989498b69bbd48fabd6d0bd909ea2ac9ab2638ea/jetty-security-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="989498b69bbd48fabd6d0bd909ea2ac9ab2638ea">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-security-9.2.19.v20160908_48e522dad788ddf578b1599730b60da160d201a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/767ab55bf935ff0611e27547078afaab52259d19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_580c51391c1f3cf747375e052618c4fdf04f0389.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-server/9.2.19.v20160908/92003301040475ad0dba5cc44c00a835036bbcbb/websocket-server-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="92003301040475ad0dba5cc44c00a835036bbcbb">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/websocket-server-9.2.19.v20160908_607a0c667399f0e67fcce305b216ff0e83a75a03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.2.19.v20160908/16e2968b7bb971d138ca6afd6a0eccc550e36648/jetty-servlet-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="16e2968b7bb971d138ca6afd6a0eccc550e36648">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-servlet-9.2.19.v20160908_f1afe4dfb71f42197d1127315c45e88bccea4544.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_c45b1325c03c3ed2ac7fb6ad09930d419de1bc1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-continuation/9.2.19.v20160908/c62791dbb1581e743b19b6321eec17969c89192b/jetty-continuation-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c62791dbb1581e743b19b6321eec17969c89192b">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-continuation-9.2.19.v20160908_44d01593ef23e3b9456c37f048d03e5f3c14326d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.2.19.v20160908/e2815b8e83696724b809964181b71abdb3c2b2e1/jetty-util-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e2815b8e83696724b809964181b71abdb3c2b2e1">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-util-9.2.19.v20160908_cb3865e273c58bcfb64abc7ca8c18bfafcd8cbf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-servlet/9.2.19.v20160908/4850a2815e08bcd8f32ad54d32c5a82068500554/websocket-servlet-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4850a2815e08bcd8f32ad54d32c5a82068500554">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/websocket-servlet-9.2.19.v20160908_6b1fe59ccaa6632add2bd712570947e60a87b780.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.2.19.v20160908/461fed2e597005e71f22a412cb71721cebc26bbb/jetty-server-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="461fed2e597005e71f22a412cb71721cebc26bbb">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-server-9.2.19.v20160908_210b9a05183a08b600b63f2b3724edc8e7728a98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-client/9.2.19.v20160908/2c04a2fc7881ffa63795aa9b65df0b1f76a9384a/websocket-client-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2c04a2fc7881ffa63795aa9b65df0b1f76a9384a">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/websocket-client-9.2.19.v20160908_c2d3e07f801f48d43384f5ecbaff444d4a73bd2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/9cfd152080804c513b4b804b1783b99090bd622a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_a04151a1973836300cc7ead75ca3f34eafa3e66d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/88b84ad70446fb8f2240938d94c660ee813ddd47/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_4acaae8fa823ad657ab5c8fe8509da1eba934b36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3cd63d075497751784b2fa84be59432f4905bf7c">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/javax.servlet-api-3.1.0_e6c6a950b6d236d41373003dfc98e3ecc6b06c1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.2.19.v20160908/ebd3ae519c8ad9f15367fa45f09f09e186c6f5bb/jetty-http-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ebd3ae519c8ad9f15367fa45f09f09e186c6f5bb">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-http-9.2.19.v20160908_87d049177ac592adbe8e73f97d6b00e7ebc638b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.2.19.v20160908/2d33c3086afa879f2c00eb84e97328065618379b/jetty-xml-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d33c3086afa879f2c00eb84e97328065618379b">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/jetty-xml-9.2.19.v20160908_2af72cc7ce9d54604fdfe7109eef661886d5888a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-api/9.2.19.v20160908/555fba0ff452195210c451a187fb61926d246a1a/websocket-api-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="555fba0ff452195210c451a187fb61926d246a1a">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/websocket-api-9.2.19.v20160908_6c0fda4faedd98a259db25e86fc8c48b64141813.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.0.1/7ffdb02f95af1c1a208544e076cea5b8e66e731a/commons-io-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7ffdb02f95af1c1a208544e076cea5b8e66e731a">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/commons-io-2.0.1_58549035c19b8128837ea172adbbf695c55ae5cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.websocket/websocket-common/9.2.19.v20160908/a3d6976d291b33e388ed65399ffa30330c2ba605/websocket-common-9.2.19.v20160908.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3d6976d291b33e388ed65399ffa30330c2ba605">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/websocket-common-9.2.19.v20160908_41c6af6fd032ebe9bae86ceda4e6708ef39506fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/duongtung/.android/build-cache/349bc21fc32bb3eef6948de6f75bca66b25ca111/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/duongtung/Freelancer/jamesbrown08/breadwallet-android/app/build/intermediates/pre-dexed/debug/classes_e477b69d6610976b25e336cc14f253b65908085f.jar" />
+    </item>
+
+</items>
